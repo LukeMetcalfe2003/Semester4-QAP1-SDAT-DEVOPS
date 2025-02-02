@@ -1,0 +1,17 @@
+The following project is a simple banking app that allows the user to check their account
+balance, make deposits, and withdraw money from their accounts. It has 3 tests one to check
+if the account exists, one to check if it allows deposits, and another to check if it allows
+withdrawls.
+
+The code follows clean code practices and there are many examples to show this. The first being 
+meaningful naming. variables like customerName and accountBal are clear and meaningful and allow 
+anyone who is reading the code to understand exactly what is being referenced. Another example is
+the method names. Methods like deposit(), withdraw(), and getBalance() are clear, concise, and very
+self-explanatory. Finally the Account class demonstarates the Single Responsibility Principle. It has
+clear single responsibility: managing the account's balance and handling withdraw and deposit operations.
+This shows it is focused on account related functionality only.
+
+This project used dependincies from maven central repository more specifically junit-jupiter.
+
+I did however run iton some issues with the actions on github. I am struggling with getting them to pass 
+I guess i just need some more time to learn them.
